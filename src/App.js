@@ -1,6 +1,8 @@
 import React from 'react'
 import './App.css'
 import { useDispatch, useSelector } from 'react-redux'
+// import Action Creator
+import { minusOne, plusOne } from "./redux/modules/counter";
 
 function App() {
   
@@ -18,7 +20,7 @@ function App() {
         <button 
           className='btn-minus'
           onClick={() => {
-            dispatch({type: 'MINUS_ONE'});
+            dispatch({type: minusOne});
           }}
         >
           -1
@@ -27,7 +29,7 @@ function App() {
         <button
           className='btn-plus'
           onClick={() => {
-            dispatch({type: 'PLUS_ONE'});
+            dispatch({type: plusOne});
           }}
         >
           +1
