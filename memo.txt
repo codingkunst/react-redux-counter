@@ -1,4 +1,4 @@
-redux 폴더 : redux 관련 코드를 모두 넣음
-config 폴더 : 리더스 설정 관련 파일 전부
+redux 폴더 : redux 관련 코드가 모두 들어감
+config 폴더 : 리더스 설정 관련 파일이 전부 들어감
 configStore.js : 중앙 state 관리소 -> 설정 코드 
-modules 폴더 : state의 그룹 -> TodoList, todo.js 등등
+modules 폴더 : state의 그룹
